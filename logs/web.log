@@ -1,0 +1,550 @@
+2017.12.06 12:12:38 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 12:12:40 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 12:12:41 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 12:12:41 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 12:12:41 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 12:12:41 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 12:12:41 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 12:12:43 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 12:12:43 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 12:12:46 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:12:46 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 12:12:46 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:12:49 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 12:12:54 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.d.m.h.MigrationHistoryTableImpl] Creating table schema_migrations
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarQube :: Plugins :: SCM :: Git [scmgit] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarTS [typescript] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin Flex [flex] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPHP [php] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarC# [csharp] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarXML [xml] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJava [java] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarPython [python] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarQube :: Plugins :: SCM :: SVN [scmsvn] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Plugin SonarJS [javascript] installed
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 12:12:54 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 12:12:55 INFO  web[][o.s.s.p.d.m.AutoDbMigration] Automatically perform DB migration on fresh install
+2017.12.06 12:12:55 INFO  web[][o.s.s.p.Platform] Database has been automatically updated
+2017.12.06 12:12:55 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@474f06e8 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:12:56 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 12:12:57 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 12:12:59 INFO  web[][o.s.s.e.IndexCreator] Create index metadatas
+2017.12.06 12:13:00 INFO  web[][o.s.s.e.IndexCreator] Create type metadatas/metadata
+2017.12.06 12:13:01 INFO  web[][o.s.s.e.IndexCreator] Create index components
+2017.12.06 12:13:04 INFO  web[][o.s.s.e.IndexCreator] Create type components/component
+2017.12.06 12:13:04 INFO  web[][o.s.s.e.IndexCreator] Create type components/authorization
+2017.12.06 12:13:05 INFO  web[][o.s.s.e.IndexCreator] Create index tests
+2017.12.06 12:13:07 INFO  web[][o.s.s.e.IndexCreator] Create type tests/test
+2017.12.06 12:13:08 INFO  web[][o.s.s.e.IndexCreator] Create index projectmeasures
+2017.12.06 12:13:16 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/projectmeasure
+2017.12.06 12:13:16 INFO  web[][o.s.s.e.IndexCreator] Create type projectmeasures/authorization
+2017.12.06 12:13:16 INFO  web[][o.s.s.e.IndexCreator] Create index rules
+2017.12.06 12:13:19 INFO  web[][o.s.s.e.IndexCreator] Create type rules/activeRule
+2017.12.06 12:13:19 INFO  web[][o.s.s.e.IndexCreator] Create type rules/ruleExtension
+2017.12.06 12:13:19 INFO  web[][o.s.s.e.IndexCreator] Create type rules/rule
+2017.12.06 12:13:19 INFO  web[][o.s.s.e.IndexCreator] Create index issues
+2017.12.06 12:13:24 INFO  web[][o.s.s.e.IndexCreator] Create type issues/issue
+2017.12.06 12:13:24 INFO  web[][o.s.s.e.IndexCreator] Create type issues/authorization
+2017.12.06 12:13:25 INFO  web[][o.s.s.e.IndexCreator] Create index users
+2017.12.06 12:13:26 INFO  web[][o.s.s.e.IndexCreator] Create type users/user
+2017.12.06 12:13:26 INFO  web[][o.s.s.e.IndexCreator] Create index views
+2017.12.06 12:13:29 INFO  web[][o.s.s.e.IndexCreator] Create type views/view
+2017.12.06 12:13:29 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 12:13:29 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 12:13:29 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 12:13:29 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 12:13:29 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 12:13:30 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 12:13:30 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 12:13:42 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 12:13:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 12:13:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile cs/Sonar way
+2017.12.06 12:13:44 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile java/Sonar way
+2017.12.06 12:13:46 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile xml/Sonar way
+2017.12.06 12:13:46 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile flex/Sonar way
+2017.12.06 12:13:46 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way Recommended
+2017.12.06 12:13:46 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile js/Sonar way
+2017.12.06 12:13:47 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Sonar way
+2017.12.06 12:13:47 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/PSR-2
+2017.12.06 12:13:47 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile php/Drupal
+2017.12.06 12:13:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile py/Sonar way
+2017.12.06 12:13:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile ts/Sonar way
+2017.12.06 12:13:48 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register profile ts/Sonar way recommended
+2017.12.06 12:13:48 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 12:13:49 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@343c6546 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@4b809e7f [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@252344b8 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@1be4f66a [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@800d3d0 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@244cfa60 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@57a0a648 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@34be6d2a [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 12:13:49 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] ...
+2017.12.06 12:13:56 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [rules/activeRule] done | time=6912ms
+2017.12.06 12:13:56 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/ruleExtension],[rules/rule] ...
+2017.12.06 12:14:04 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [rules/ruleExtension],[rules/rule] done | time=8224ms
+2017.12.06 12:14:04 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] ...
+2017.12.06 12:14:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [users/user] done | time=2233ms
+2017.12.06 12:14:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] ...
+2017.12.06 12:14:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [components/component] done | time=454ms
+2017.12.06 12:14:06 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] ...
+2017.12.06 12:14:07 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [views/view] done | time=480ms
+2017.12.06 12:14:07 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] ...
+2017.12.06 12:14:08 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [issues/issue] done | time=640ms
+2017.12.06 12:14:08 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[issues/authorization],[projectmeasures/authorization] ...
+2017.12.06 12:14:08 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of types [components/authorization],[issues/authorization],[projectmeasures/authorization] done | time=435ms
+2017.12.06 12:14:08 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] ...
+2017.12.06 12:14:09 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [tests/test] done | time=793ms
+2017.12.06 12:14:09 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] ...
+2017.12.06 12:14:09 INFO  web[][o.s.s.e.IndexerStartupTask] Indexing of type [projectmeasures/projectmeasure] done | time=522ms
+2017.12.06 12:14:09 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 12:14:31 INFO  web[][o.s.p.StopWatcher] Stopping process
+2017.12.06 12:16:41 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 12:16:42 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 12:16:43 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 12:16:43 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 12:16:43 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 12:16:43 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 12:16:43 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 12:16:44 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 12:16:44 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 12:16:45 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:16:45 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 12:16:45 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:16:47 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 12:16:48 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 12:16:48 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 12:16:49 WARN  web[][o.a.c.u.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [125] milliseconds.
+2017.12.06 12:16:49 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@1bcf8aac [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:16:50 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 12:16:51 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 12:16:54 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 12:16:54 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 12:16:54 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 12:16:54 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 12:16:54 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 12:16:54 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 12:16:55 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 12:16:59 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 12:17:00 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 12:17:00 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 12:17:00 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 12:17:00 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 12:17:00 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 12:17:01 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 12:17:01 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 12:17:01 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@13844da7 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@60cc1e27 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@48091dff [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@4041f090 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@3d05172e [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@1a2c93d2 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@2a5fe0fb [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@30b50334 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 12:17:01 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 12:22:16 INFO  web[][o.s.p.StopWatcher] Stopping process
+2017.12.06 12:26:45 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 12:26:46 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 12:26:47 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 12:26:47 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 12:26:47 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 12:26:47 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 12:26:47 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 12:26:49 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 12:26:49 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 12:26:50 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:26:50 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 12:26:50 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:26:51 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 12:26:53 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 12:26:53 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 12:26:54 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@7838cfd [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:26:54 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 12:26:55 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 12:26:58 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 12:26:58 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 12:26:58 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 12:26:58 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 12:26:58 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 12:26:58 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 12:26:58 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 12:27:05 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 12:27:05 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 12:27:05 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 12:27:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 12:27:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 12:27:06 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 12:27:07 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 12:27:08 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 12:27:08 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@75f62a10 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@67295fb1 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@5aa039e4 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@3057f2da [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@782da900 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@498a8b72 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@3152345b [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@49bdc4a4 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 12:27:08 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 12:30:19 INFO  web[][o.s.p.StopWatcher] Stopping process
+2017.12.06 12:31:06 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 12:31:07 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 12:31:08 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 12:31:08 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 12:31:08 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 12:31:08 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 12:31:08 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 12:31:09 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 12:31:09 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 12:31:10 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:31:10 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 12:31:10 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 12:31:11 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 12:31:12 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 12:31:12 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 12:31:13 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@7838cfd [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:31:13 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 12:31:15 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 12:31:18 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 12:31:18 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 12:31:18 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 12:31:18 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 12:31:18 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 12:31:18 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 12:31:19 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 12:31:24 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 12:31:24 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 12:31:24 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 12:31:24 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 12:31:25 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 12:31:25 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 12:31:25 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 12:31:25 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 12:31:26 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 12:31:26 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 12:31:26 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 12:31:26 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 12:31:26 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 12:31:26 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 12:31:26 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 12:31:26 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@224e450 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@803f1b0 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@35f6bbc0 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@5551058 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@1c7e0569 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@69a6d9f0 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@2d4d7b13 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@5032fa4e [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 12:31:26 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 13:17:09 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 13:17:11 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 13:17:12 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 13:17:12 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 13:17:12 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 13:17:12 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 13:17:12 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 13:17:14 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 13:17:14 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 13:17:16 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 13:17:16 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 13:17:16 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 13:17:17 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 13:17:18 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 13:17:18 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 13:17:20 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@3725e575 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 13:17:20 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 13:17:24 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 13:17:28 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 13:17:28 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 13:17:28 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 13:17:28 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 13:17:28 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 13:17:28 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 13:17:29 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 13:17:36 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 13:17:36 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 13:17:36 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 13:17:36 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 13:17:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 13:17:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 13:17:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 13:17:37 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 13:17:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 13:17:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 13:17:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 13:17:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 13:17:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 13:17:38 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 13:17:38 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 13:17:38 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@12d34f2c [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@5e76450 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@27445218 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@561cf8b4 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@59320c [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@53566daf [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@5cb99bd7 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@29c9d98c [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 13:17:38 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 13:30:50 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 13:30:53 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 13:30:53 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 13:30:53 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 13:30:53 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 13:30:53 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 13:30:53 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 13:30:55 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 13:30:55 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 13:30:56 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 13:30:56 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 13:30:56 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 13:30:57 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 13:30:59 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 13:30:59 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 13:31:00 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@58acfb3c [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 13:31:01 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 13:31:03 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 13:31:05 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 13:31:05 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 13:31:05 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 13:31:05 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 13:31:06 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 13:31:06 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 13:31:06 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 13:31:13 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 13:31:14 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 13:31:14 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 13:31:15 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 13:31:15 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 13:31:15 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 13:31:16 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 13:31:16 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 13:31:16 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@620c3e7 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@18f9ed94 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@5d1ceeb0 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@3a3ca442 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@4ee84def [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@6ae2a5c7 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@4859e889 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 13:31:16 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@1a28724f [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 13:31:17 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 14:23:14 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 14:23:16 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 14:23:23 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 14:23:23 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 14:23:23 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 14:23:23 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 14:23:23 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 14:23:26 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 14:23:26 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 14:23:31 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 14:23:31 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 14:23:31 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 14:23:35 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 14:23:39 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 14:23:39 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 14:23:42 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 14:23:58 WARN  web[][o.a.c.u.SessionIdGeneratorBase] Creation of SecureRandom instance for session ID generation using [SHA1PRNG] took [637] milliseconds.
+2017.12.06 14:23:59 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@26d9e002 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 14:24:03 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 14:24:15 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 14:24:23 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 14:24:24 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 14:24:24 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 14:24:24 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 14:24:25 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 14:24:26 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 14:24:26 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 14:24:40 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 14:24:40 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 14:24:40 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 14:24:41 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 14:24:41 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 14:24:41 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 14:24:41 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 14:24:42 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 14:24:42 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 14:24:42 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@2ed596a6 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@2c0e4f0d [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@4dcd3349 [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@240e32b3 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@23e7043b [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@4eaaa253 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@73028f71 [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@57fbcf75 [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 14:24:43 INFO  web[][o.s.s.p.Platform] WebServer is operational
+2017.12.06 16:20:06 INFO  web[][o.a.c.h.Http11Processor] Error parsing HTTP request header
+ Note: further occurrences of HTTP header parsing errors will be logged at DEBUG level.
+java.lang.IllegalArgumentException: Invalid character found in method name. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:426)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:687)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1459)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+2017.12.06 16:50:30 INFO  web[][o.s.p.ProcessEntryPoint] Starting web
+2017.12.06 16:50:34 INFO  web[][o.a.t.u.n.NioSelectorPool] Using a shared selector for servlet write/read
+2017.12.06 16:50:37 INFO  web[][o.e.p.PluginsService] no modules loaded
+2017.12.06 16:50:37 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.index.reindex.ReindexPlugin]
+2017.12.06 16:50:37 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.join.ParentJoinPlugin]
+2017.12.06 16:50:37 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.percolator.PercolatorPlugin]
+2017.12.06 16:50:37 INFO  web[][o.e.p.PluginsService] loaded plugin [org.elasticsearch.transport.Netty4Plugin]
+2017.12.06 16:50:39 INFO  web[][o.s.s.e.EsClientProvider] Connected to local Elasticsearch: [127.0.0.1:9001]
+2017.12.06 16:50:39 INFO  web[][o.s.s.p.LogServerVersion] SonarQube Server / 6.7.0.33306 / 5d031d9d2ac3f69b4b9bc600d50563b1886c7d8b
+2017.12.06 16:50:43 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Starting embedded database on port 9092 with url jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 16:50:43 INFO  web[][o.s.s.p.d.EmbeddedDatabase] Embedded database started. Data stored in: /home/gajanan/Downloads/sonarqube-6.7/data
+2017.12.06 16:50:43 INFO  web[][o.sonar.db.Database] Create JDBC data source for jdbc:h2:tcp://127.0.0.1:9092/sonar
+2017.12.06 16:50:44 WARN  web[][o.s.d.DatabaseChecker] H2 database should be used for evaluation purpose only
+2017.12.06 16:50:45 INFO  web[][o.s.s.p.ServerFileSystemImpl] SonarQube home: /home/gajanan/Downloads/sonarqube-6.7
+2017.12.06 16:50:45 INFO  web[][o.s.s.u.SystemPasscodeImpl] System authentication by passcode is disabled
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin Flex / 2.3 / 79167f762219bea1fd181ff5ef6ca4b34abd1675
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarC# / 6.5.0.3766 / 6011a1e9fb002edb044ae3092d92bcfb7d9d8a2d
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJS / 3.2.0.5506 / 86da09565f891121df248835665f5d8ed98772b6
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarJava / 4.15.0.12310 / 572454b93016ec73a53fe0e07b2ffdc356d21ba9
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPHP / 2.11.0.2485 / 741861a29e5f9a26c6c99c06268facb6c4f4a882
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarPython / 1.8.0.1496 / 3fe3bc4d0273a5721ea2fb368dc45b1bb82fede3
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: Git / 1.3.0.869 / 4da53e3f9e55f4f2e5796625cb0c5768ed152079
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarQube :: Plugins :: SCM :: SVN / 1.6.0.860 / 2111fdbd1dddda4ad6d4ed6486fd0b18c1010d3b
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarTS / 1.1.0.1079 / 042c9e65239a47d92d305f9767f730b3cc1e5ed3
+2017.12.06 16:50:46 INFO  web[][o.s.s.p.ServerPluginRepository] Deploy plugin SonarXML / 1.4.3.1027 / 39588245cecf538bb27be4e496ff303b0143d20b
+2017.12.06 16:50:47 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@283fb357 [pattern=UrlPattern{inclusions=[/api/system/migrate_db/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 16:50:47 INFO  web[][o.s.s.a.EmbeddedTomcat] HTTP connector enabled on port 9000
+2017.12.06 16:50:49 INFO  web[][o.s.s.p.UpdateCenterClient] Update center: https://update.sonarsource.org/update-center.properties (no proxy)
+2017.12.06 16:50:50 INFO  web[][o.s.s.s.LogServerId] Server ID: AWAqkB3jr-QASG3T4ih-
+2017.12.06 16:50:50 INFO  web[][o.s.s.t.TelemetryDaemon] Sharing of SonarQube statistics is enabled.
+2017.12.06 16:50:50 INFO  web[][o.s.s.n.NotificationDaemon] Notification service started (delay 60 sec.)
+2017.12.06 16:50:51 INFO  web[][o.s.s.s.GeneratePluginIndex] Generate scanner plugin index
+2017.12.06 16:50:51 INFO  web[][o.s.s.s.RegisterPlugins] Register plugins
+2017.12.06 16:50:51 INFO  web[][o.s.s.s.RegisterMetrics] Register metrics
+2017.12.06 16:50:51 INFO  web[][o.s.s.r.RegisterRules] Register rules
+2017.12.06 16:50:56 INFO  web[][o.s.s.q.BuiltInQProfileRepositoryImpl] Load quality profiles
+2017.12.06 16:50:56 INFO  web[][o.s.s.q.RegisterQualityProfiles] Register quality profiles
+2017.12.06 16:50:56 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile cs/Sonar way
+2017.12.06 16:50:56 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile java/Sonar way
+2017.12.06 16:50:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile xml/Sonar way
+2017.12.06 16:50:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile flex/Sonar way
+2017.12.06 16:50:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way Recommended
+2017.12.06 16:50:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile js/Sonar way
+2017.12.06 16:50:57 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Sonar way
+2017.12.06 16:50:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/PSR-2
+2017.12.06 16:50:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile php/Drupal
+2017.12.06 16:50:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile py/Sonar way
+2017.12.06 16:50:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way
+2017.12.06 16:50:58 INFO  web[][o.s.s.q.RegisterQualityProfiles] Update profile ts/Sonar way recommended
+2017.12.06 16:50:58 INFO  web[][o.s.s.s.RegisterPermissionTemplates] Register permission templates
+2017.12.06 16:50:58 INFO  web[][o.s.s.s.RenameDeprecatedPropertyKeys] Rename deprecated property keys
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceFilter@7883fb29 [pattern=UrlPattern{inclusions=[/api/measures/component/*, ...], exclusions=[/api/properties*, ...]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.DeprecatedPropertiesWsFilter@527078e7 [pattern=UrlPattern{inclusions=[/api/properties/*], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.ws.WebServiceReroutingFilter@1885f4fd [pattern=UrlPattern{inclusions=[/api/components/bulk_update_key, ...], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.InitFilter@55c39a91 [pattern=UrlPattern{inclusions=[/sessions/init/*], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.OAuth2CallbackFilter@76842787 [pattern=UrlPattern{inclusions=[/oauth2/callback/*], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LoginAction@6eea8938 [pattern=UrlPattern{inclusions=[/api/authentication/login], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.LogoutAction@70571d6f [pattern=UrlPattern{inclusions=[/api/authentication/logout], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.w.MasterServletFilter] Initializing servlet filter org.sonar.server.authentication.ws.ValidateAction@49bbf1dd [pattern=UrlPattern{inclusions=[/api/authentication/validate], exclusions=[]}]
+2017.12.06 16:50:58 INFO  web[][o.s.s.p.Platform] WebServer is operational

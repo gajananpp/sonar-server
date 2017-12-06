@@ -1,0 +1,251 @@
+2017.12.06 12:12:31 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 12:12:31 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.7gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 12:12:31 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 12:12:31 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 12:12:31 INFO  es[][o.e.n.Node] version[5.6.3], pid[3607], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 12:12:31 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 12:12:32 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 12:12:33 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 12:12:34 INFO  es[][o.e.n.Node] initialized
+2017.12.06 12:12:34 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 12:12:34 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 12:12:34 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 12:12:34 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 12:12:37 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{fiF80RqwRkqD52uC9sa-TA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 12:12:37 INFO  es[][o.e.n.Node] started
+2017.12.06 12:12:37 INFO  es[][o.e.g.GatewayService] recovered [0] indices into cluster_state
+2017.12.06 12:12:59 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [metadatas] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2017.12.06 12:12:59 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 12:13:00 INFO  es[][o.e.c.m.MetaDataMappingService] [metadatas/rG0bjozEQjGo3NLgHWeKeQ] create_mapping [metadata]
+2017.12.06 12:13:01 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [components] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2017.12.06 12:13:04 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[components][4]] ...]).
+2017.12.06 12:13:04 INFO  es[][o.e.c.m.MetaDataMappingService] [components/XMDSMJ_CTgy5Fmss9m6oZw] create_mapping [component]
+2017.12.06 12:13:05 INFO  es[][o.e.c.m.MetaDataMappingService] [components/XMDSMJ_CTgy5Fmss9m6oZw] create_mapping [authorization]
+2017.12.06 12:13:05 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [tests] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2017.12.06 12:13:07 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[tests][4]] ...]).
+2017.12.06 12:13:07 INFO  es[][o.e.c.m.MetaDataMappingService] [tests/pKUSUokuSiOyLtZ_B_Up8g] create_mapping [test]
+2017.12.06 12:13:08 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [projectmeasures] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2017.12.06 12:13:16 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[projectmeasures][4]] ...]).
+2017.12.06 12:13:16 INFO  es[][o.e.c.m.MetaDataMappingService] [projectmeasures/UlQep3tbSeiOIl8F1550qw] create_mapping [projectmeasure]
+2017.12.06 12:13:16 INFO  es[][o.e.c.m.MetaDataMappingService] [projectmeasures/UlQep3tbSeiOIl8F1550qw] create_mapping [authorization]
+2017.12.06 12:13:17 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [rules] creating index, cause [api], templates [], shards [2]/[0], mappings []
+2017.12.06 12:13:18 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[rules][0]] ...]).
+2017.12.06 12:13:19 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/U6aCS3CxTF6aYYK4d-R5OA] create_mapping [activeRule]
+2017.12.06 12:13:19 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/U6aCS3CxTF6aYYK4d-R5OA] create_mapping [ruleExtension]
+2017.12.06 12:13:19 INFO  es[][o.e.c.m.MetaDataMappingService] [rules/U6aCS3CxTF6aYYK4d-R5OA] create_mapping [rule]
+2017.12.06 12:13:20 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [issues] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2017.12.06 12:13:24 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[issues][4]] ...]).
+2017.12.06 12:13:24 INFO  es[][o.e.c.m.MetaDataMappingService] [issues/jfEes_3oRDu8sZarg9isMQ] create_mapping [issue]
+2017.12.06 12:13:24 INFO  es[][o.e.c.m.MetaDataMappingService] [issues/jfEes_3oRDu8sZarg9isMQ] create_mapping [authorization]
+2017.12.06 12:13:25 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [users] creating index, cause [api], templates [], shards [1]/[0], mappings []
+2017.12.06 12:13:26 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[users][0]] ...]).
+2017.12.06 12:13:26 INFO  es[][o.e.c.m.MetaDataMappingService] [users/lSOvnXtXTvCrxzuwEbx_jQ] create_mapping [user]
+2017.12.06 12:13:26 INFO  es[][o.e.c.m.MetaDataCreateIndexService] [views] creating index, cause [api], templates [], shards [5]/[0], mappings []
+2017.12.06 12:13:29 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [YELLOW] to [GREEN] (reason: [shards started [[views][4]] ...]).
+2017.12.06 12:13:29 INFO  es[][o.e.c.m.MetaDataMappingService] [views/7KHH21hFQ8asCMeFNrUb1w] create_mapping [view]
+2017.12.06 12:14:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2017.12.06 12:14:04 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2017.12.06 12:14:06 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2017.12.06 12:14:06 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2017.12.06 12:14:06 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2017.12.06 12:14:06 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [30s] to [-1]
+2017.12.06 12:14:07 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2017.12.06 12:14:07 INFO  es[][o.e.c.s.IndexScopedSettings] updating [index.refresh_interval] from [-1] to [30s]
+2017.12.06 12:14:36 INFO  es[][o.e.n.Node] stopping ...
+2017.12.06 12:14:40 INFO  es[][o.e.n.Node] stopped
+2017.12.06 12:14:40 INFO  es[][o.e.n.Node] closing ...
+2017.12.06 12:14:40 INFO  es[][o.e.n.Node] closed
+2017.12.06 12:16:18 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 12:16:18 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.5gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 12:16:18 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 12:16:18 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 12:16:18 INFO  es[][o.e.n.Node] version[5.6.3], pid[4514], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 12:16:18 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 12:16:19 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 12:16:21 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 12:16:21 INFO  es[][o.e.n.Node] initialized
+2017.12.06 12:16:21 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 12:16:22 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 12:16:22 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 12:16:22 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 12:16:25 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{jkn6zoOYT4an-GNHebAYTg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 12:16:25 INFO  es[][o.e.n.Node] started
+2017.12.06 12:16:26 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 12:16:40 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 12:22:21 INFO  es[][o.e.n.Node] stopping ...
+2017.12.06 12:22:21 INFO  es[][o.e.n.Node] stopped
+2017.12.06 12:22:21 INFO  es[][o.e.n.Node] closing ...
+2017.12.06 12:22:21 INFO  es[][o.e.n.Node] closed
+2017.12.06 12:26:19 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 12:26:19 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.5gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 12:26:19 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 12:26:19 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 12:26:19 INFO  es[][o.e.n.Node] version[5.6.3], pid[5618], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 12:26:19 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 12:26:20 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 12:26:22 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 12:26:23 INFO  es[][o.e.n.Node] initialized
+2017.12.06 12:26:23 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 12:26:24 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 12:26:24 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 12:26:24 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 12:26:27 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{iKRx7vNBTmq1Ptq2Fp76Eg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 12:26:27 INFO  es[][o.e.n.Node] started
+2017.12.06 12:26:29 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 12:26:44 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 12:30:21 INFO  es[][o.e.n.Node] stopping ...
+2017.12.06 12:30:22 INFO  es[][o.e.n.Node] stopped
+2017.12.06 12:30:22 INFO  es[][o.e.n.Node] closing ...
+2017.12.06 12:30:22 INFO  es[][o.e.n.Node] closed
+2017.12.06 12:30:43 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 12:30:43 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.5gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 12:30:43 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 12:30:43 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 12:30:43 INFO  es[][o.e.n.Node] version[5.6.3], pid[6467], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 12:30:43 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 12:30:44 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 12:30:45 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 12:30:47 INFO  es[][o.e.n.Node] initialized
+2017.12.06 12:30:47 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 12:30:47 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 12:30:47 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 12:30:47 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 12:30:50 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{SGPQmFcnRgiCiy6uwcV0mQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 12:30:50 INFO  es[][o.e.n.Node] started
+2017.12.06 12:30:52 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 12:31:06 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[components][0]] ...]).
+2017.12.06 13:01:48 INFO  es[][o.e.n.Node] stopping ...
+2017.12.06 13:01:49 INFO  es[][o.e.n.Node] stopped
+2017.12.06 13:01:49 INFO  es[][o.e.n.Node] closing ...
+2017.12.06 13:01:49 INFO  es[][o.e.n.Node] closed
+2017.12.06 13:16:40 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 13:16:40 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.3gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 13:16:40 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 13:16:41 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 13:16:41 INFO  es[][o.e.n.Node] version[5.6.3], pid[11438], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 13:16:41 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 13:16:42 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 13:16:45 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 13:16:46 INFO  es[][o.e.n.Node] initialized
+2017.12.06 13:16:46 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 13:16:46 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 13:16:46 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 13:16:46 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 13:16:49 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{LAOnanOfT1y9QxU50p6Xjg}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 13:16:49 INFO  es[][o.e.n.Node] started
+2017.12.06 13:16:51 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 13:17:08 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 13:19:33 INFO  es[][o.e.n.Node] stopping ...
+2017.12.06 13:19:34 INFO  es[][o.e.n.Node] stopped
+2017.12.06 13:19:34 INFO  es[][o.e.n.Node] closing ...
+2017.12.06 13:19:34 INFO  es[][o.e.n.Node] closed
+2017.12.06 13:30:23 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 13:30:24 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.3gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 13:30:24 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 13:30:25 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 13:30:25 INFO  es[][o.e.n.Node] version[5.6.3], pid[15285], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 13:30:25 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 13:30:25 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 13:30:28 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 13:30:29 INFO  es[][o.e.n.Node] initialized
+2017.12.06 13:30:29 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 13:30:29 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 13:30:29 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 13:30:29 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 13:30:32 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{fbbI3Mm7SdKPHmSutkQ64A}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 13:30:32 INFO  es[][o.e.n.Node] started
+2017.12.06 13:30:34 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 13:30:50 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 13:36:12 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][341] overhead, spent [309ms] collecting in the last [1s]
+2017.12.06 13:38:11 INFO  es[][o.e.n.Node] stopping ...
+2017.12.06 13:38:12 INFO  es[][o.e.n.Node] stopped
+2017.12.06 13:38:12 INFO  es[][o.e.n.Node] closing ...
+2017.12.06 13:38:12 INFO  es[][o.e.n.Node] closed
+2017.12.06 14:22:33 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 14:22:34 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.2gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 14:22:34 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 14:22:35 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 14:22:35 INFO  es[][o.e.n.Node] version[5.6.3], pid[3297], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 14:22:35 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 14:22:38 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 14:22:43 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 14:22:44 INFO  es[][o.e.n.Node] initialized
+2017.12.06 14:22:44 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 14:22:45 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 14:22:45 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 14:22:45 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 14:22:48 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{ZGZ9lu9pS168mbuR_TPUGQ}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 14:22:48 INFO  es[][o.e.n.Node] started
+2017.12.06 14:22:51 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 14:23:12 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 15:14:45 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][young][3112][6] duration [2.9s], collections [1]/[3.1s], total [2.9s]/[3.1s], memory [241.3mb]->[108.9mb]/[494.9mb], all_pools {[young] [136.5mb]->[353kb]/[136.5mb]}{[survivor] [12.4mb]->[8.6mb]/[17mb]}{[old] [92.4mb]->[100mb]/[341.3mb]}
+2017.12.06 15:14:45 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][3112] overhead, spent [2.9s] collecting in the last [3.1s]
+2017.12.06 15:51:38 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][5323] overhead, spent [381ms] collecting in the last [1s]
+2017.12.06 16:36:57 INFO  es[][o.e.m.j.JvmGcMonitorService] [gc][8041] overhead, spent [589ms] collecting in the last [1.4s]
+2017.12.06 16:49:57 INFO  es[][o.e.n.Node] initializing ...
+2017.12.06 16:49:57 INFO  es[][o.e.e.NodeEnvironment] using [1] data paths, mounts [[/ (/dev/sda3)]], net usable_space [841.2gb], net total_space [904.7gb], spins? [possibly], types [ext4]
+2017.12.06 16:49:57 INFO  es[][o.e.e.NodeEnvironment] heap size [494.9mb], compressed ordinary object pointers [true]
+2017.12.06 16:49:59 INFO  es[][o.e.n.Node] node name [sonarqube], node ID [sD1mo5kTSg28p5ukCCLm9w]
+2017.12.06 16:49:59 INFO  es[][o.e.n.Node] version[5.6.3], pid[2957], build[1a2f265/2017-10-06T20:33:39.012Z], OS[Linux/4.13.0-17-generic/amd64], JVM[Oracle Corporation/OpenJDK 64-Bit Server VM/1.8.0_151/25.151-b12]
+2017.12.06 16:49:59 INFO  es[][o.e.n.Node] JVM arguments [-XX:+UseConcMarkSweepGC, -XX:CMSInitiatingOccupancyFraction=75, -XX:+UseCMSInitiatingOccupancyOnly, -XX:+AlwaysPreTouch, -Xss1m, -Djava.awt.headless=true, -Dfile.encoding=UTF-8, -Djna.nosys=true, -Djdk.io.permissionsUseCanonicalPath=true, -Dio.netty.noUnsafe=true, -Dio.netty.noKeySetOptimization=true, -Dio.netty.recycler.maxCapacityPerThread=0, -Dlog4j.shutdownHookEnabled=false, -Dlog4j2.disable.jmx=true, -Dlog4j.skipJansi=true, -Xms512m, -Xmx512m, -XX:+HeapDumpOnOutOfMemoryError, -Des.path.home=/home/gajanan/Downloads/sonarqube-6.7/elasticsearch]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] loaded module [aggs-matrix-stats]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] loaded module [ingest-common]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] loaded module [parent-join]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] loaded module [percolator]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] loaded module [reindex]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] loaded module [transport-netty4]
+2017.12.06 16:50:00 INFO  es[][o.e.p.PluginsService] no plugins loaded
+2017.12.06 16:50:02 INFO  es[][o.e.d.DiscoveryModule] using discovery type [zen]
+2017.12.06 16:50:03 INFO  es[][o.e.n.Node] initialized
+2017.12.06 16:50:03 INFO  es[][o.e.n.Node] starting ...
+2017.12.06 16:50:03 INFO  es[][o.e.t.TransportService] publish_address {127.0.0.1:9001}, bound_addresses {127.0.0.1:9001}
+2017.12.06 16:50:03 WARN  es[][o.e.b.BootstrapChecks] max file descriptors [4096] for elasticsearch process is too low, increase to at least [65536]
+2017.12.06 16:50:03 WARN  es[][o.e.b.BootstrapChecks] max virtual memory areas vm.max_map_count [65530] is too low, increase to at least [262144]
+2017.12.06 16:50:06 INFO  es[][o.e.c.s.ClusterService] new_master {sonarqube}{sD1mo5kTSg28p5ukCCLm9w}{IsQSFCXGSBuz4gjz45i-SA}{127.0.0.1}{127.0.0.1:9001}{rack_id=sonarqube}, reason: zen-disco-elected-as-master ([0] nodes joined)
+2017.12.06 16:50:06 INFO  es[][o.e.n.Node] started
+2017.12.06 16:50:08 INFO  es[][o.e.g.GatewayService] recovered [8] indices into cluster_state
+2017.12.06 16:50:28 INFO  es[][o.e.c.r.a.AllocationService] Cluster health status changed from [RED] to [GREEN] (reason: [shards started [[metadatas][0]] ...]).
+2017.12.06 17:36:00 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][young][2746][6] duration [4.5s], collections [1]/[5.4s], total [4.5s]/[4.6s], memory [238.6mb]->[109.1mb]/[494.9mb], all_pools {[young] [136.2mb]->[1.2mb]/[136.5mb]}{[survivor] [11.8mb]->[9.9mb]/[17mb]}{[old] [90.6mb]->[98.9mb]/[341.3mb]}
+2017.12.06 17:36:00 WARN  es[][o.e.m.j.JvmGcMonitorService] [gc][2746] overhead, spent [4.5s] collecting in the last [5.4s]
